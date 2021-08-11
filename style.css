@@ -1,0 +1,243 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    color: #9fa0a5;
+    line-height: 1.5;
+    
+}
+/* base css */
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #323150;
+}
+.text-right {
+    text-align: right;
+}
+/*==============slick-nav===============*/
+.slicknav_menu {
+  background-color: transparent;
+    font-size: inherit;
+}
+.slicknav_nav {
+	width: 100%;
+	background-color: #2fc98b;
+	text-align: center;
+	color: #fff;
+	padding: 20px 0;
+    display: none;
+}
+.slicknav_btn {
+  background: none;
+}
+.slicknav_menu .slicknav_menutxt {
+  display: none;
+}
+.slicknav_menu .slicknav_icon {
+	padding-left: 170px;
+	margin-top: -28px;
+	display: block;
+	margin-left: -189px;
+} 
+.slicknav_nav .slicknav_row, .slicknav_nav a {
+	padding: 10px 15px;
+	margin: 0;
+    color: #323150;
+}
+.slicknav_nav a:hover {
+  background: #2fc98b;
+  color: #fff;
+  border-radius: 0px;
+}
+.slicknav_nav .slicknav_row:hover{
+    background-color: #2fc98b;
+    border-radius: 0px;
+}
+.slicknav_menu {
+	display: none;
+}
+/* header area */
+.header-area.tramsparent {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+}
+.main-manu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-manu ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.main-manu li a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: #9fa0a5;
+    padding: 30px 0;
+}
+
+a.btn {
+    display: inline-block;
+    font-size: 16px;
+    background: #2fc98b;
+    color: #fff;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+
+.side-btn {
+    text-align: right;
+}
+/* hero area */
+.hero-area {
+    background: #fafafa;
+    height: 655px;
+}
+
+.hero-area h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.hero-area p {
+    font-size: 15px;
+    margin-bottom: 35px;
+    line-height: 1.6;
+}
+
+.hero-img img {
+    max-width: 650px;
+}
+
+.hero-img {
+    text-align: right;
+}
+/* about area */
+.gray-bg {
+    background: #f4f5f7;
+}
+.single-about-items {
+    padding: 10px;
+    min-height: 300px;
+}
+.about-area {
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+.section-tittle h2 {
+    color: #222439;
+    font-size: 33px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.section-tittle p {
+    font-size: 16px;
+}
+
+.section-tittle {
+    margin-bottom: 60px;
+}
+
+.about-icon {
+    height: 70px;
+    width: 70px;
+    background: #30cc83;
+    border-radius: 50%;
+    line-height: 70px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.single-about-items h4 {
+    margin-bottom: 25px;
+}
+
+.single-about-items p {
+    font-size: 15px;
+}
+/* bloge area */
+.bloge-area {
+    padding-top: 90px;
+    padding-bottom: 70px;
+    background: #fafafa;
+}
+
+.bloge-tittle h2 {
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.bloge-tittle {
+    margin-bottom: 40px;
+}
+
+.bloge-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.bloge-detalce {
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-left: 15px;
+    background: #fff;
+    min-height: 250px;
+}
+.single-bloge-item span {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+.single-bloge-item h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.single-bloge-item p {
+    font-size: 15px;
+}
+/* footer area */
+.footer-area {
+    background: #2d314e;
+    padding: 40px 0;
+}
+.footer-logo {
+    margin-bottom: 43px;
+}
+
+.footer-area ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-area ul li a {
+    color: #fff;
+    padding: 5px 0;
+    display: block;
+}
+
+.social-area a {
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    padding: 0 6px;
+}
+
+.footer-btn a {
+    margin-bottom: 25px;
+}

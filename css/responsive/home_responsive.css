@@ -1,0 +1,172 @@
+
+/* (1920x1080) Full HD Display */
+
+@media  screen and (max-width: 1920px) {}
+
+/* (1366x768) WXGA Display */
+@media  screen and (max-width: 1366px) {}
+/*---------------- iPads (portrait and landscape) ---------------------- */
+@media only screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+  .main-manu ul li {
+	display: inline-block;
+	margin: 0 20px;
+}
+    .hero-area {
+	height: 550px;
+}
+    .hero-area h2 {
+	font-size: 34px;
+}
+    .hero-img img {
+	max-width: 530px;
+}
+    .about-area {
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+    .single-about-items {
+	padding: 0;
+}
+    .single-bloge-item h4 {
+	font-size: 17px;
+}
+    .single-bloge-item p {
+	font-size: 14px;
+}
+  .footer-area ul li a {
+	font-size: 14px;
+}  
+   
+ 
+} 
+    
+   
+/*------------------- iPads (portrait and landscape) -------------------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+     .main-manu ul li {
+	display: inline-block;
+	margin: 0 9px;
+}
+    .main-manu li a {
+	font-size: 13px;
+	
+}
+    a.btn {
+	padding: 15px 26px;
+	font-size: 13px;
+}
+    .hero-area h2 {
+	font-size: 25px;
+}
+    .hero-img img {
+	max-width: 440px;
+}
+    .hero-area {
+	height: 450px;
+}
+    .about-area {
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+    .single-about-items h4 {
+	font-size: 17px;
+}
+  .single-about-items p {
+	font-size: 12px;
+}
+    .bloge-tittle h2 {
+	font-size: 30px;
+}
+    .single-bloge-item h4 {
+	font-size: 12px;
+}
+    .single-bloge-item p {
+	font-size: 10px;
+}
+    .bloge-detalce {
+	min-height: 210px;
+}
+    .social-area a {
+	padding: 0 3px;
+}
+    .footer-btn p {
+	font-size: 14px;
+}
+    .footer-first-btn a {
+	font-size: 14px;
+}
+    
+}
+
+/*================= 320  mobile lay out   =======================*/
+@media only screen and (max-device-width: 767px) {
+    .slicknav_menu {
+	display: block;
+}
+    .mobile-manu-wrap {
+	margin-top: -20px;
+}
+    .header-area {
+	height: 70px;
+}
+    .header-area.tramsparent {
+	padding: 15px 0;
+}
+   .main-manu {
+	display: none;
+}
+    .side-btn {
+	text-align: right;
+	display: none;
+}
+    .hero-img img {
+	max-width: 650px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+    .hero-area {
+	height: 775px;
+}
+    .mb-supot {
+	margin-top: 130%;
+    text-align: center;
+}
+    .hero-area h2 {
+	font-size: 33px;
+}
+    .about-area {
+	padding-top: 50px;
+	padding-bottom: 30px;
+    text-align: center;
+}
+    .about-icon {
+	margin: auto;
+	margin-bottom: 30px;
+}
+    .bloge-tittle h2 {
+	text-align: center;
+}
+    .footer-area {
+	text-align: center;
+}
+    .footer-logo {
+	margin-bottom: 25px;
+}
+    .social-area {
+	margin-bottom: 25px;
+}
+    .footer-btn {
+	text-align: center;
+    margin-top: 25px;
+}
+.footer-area ul {
+  margin: 0;
+  padding: 0;
+}
+        
+}
+/*=================   iPad  landscape  =======================*/
+
